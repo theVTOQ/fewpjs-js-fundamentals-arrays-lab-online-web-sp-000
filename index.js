@@ -7,4 +7,4 @@ const removeFirst = append.slice();
 append.push("Odie");
 prepend.unshift("Odie");
 removeLast.splice(-1);
-removeFirst.shift()
+removeFirst.splice(0)
